@@ -7,6 +7,8 @@
 #include<ctime>
 using namespace std;
 
+// 함수에서 array 를 수정하면 원래 array 도 변경된다는 것을 몰랐는데
+// 생각해 보니까 배열을 리턴할 필요가 없고 그냥 void 형으로 함수를 만들었어도 됨.
 int* insertion_sort(int array[], int size){ // 배열을 리턴하는 법을 잘 모르겠음
                                             // 검색한 대로 짜니까 되기는 하는데 포인터
                                             // 부분에서 자세히 배워야 할 것 같습니다
