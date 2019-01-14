@@ -21,8 +21,8 @@
 
 크기 N자리 배열의 [i, N-1] 중 최소값이 i번째에 위치하도록 swap 하는 것을 i= 0 부터 i = N-1 까지 반복하는 알고리즘 
 
-![](https://latex.codecogs.com/svg.latex?O(n^2)) 짜리 시간복잡도 알고리즘. 
-시간복잡도상 정렬에서 최적은 ![](https://latex.codecogs.com/svg.latex?O(n\log(n))) 
+![](https://latex.codecogs.com/svg.latex?O(N^2)) 짜리 시간복잡도 알고리즘. 
+시간복잡도상 정렬에서 최적은 ![](https://latex.codecogs.com/svg.latex?O(N\log(N))) 
 
 # 기타 
 함수에 배열을 넘겨주면 해당 함수에서 배열을 수정할 때 넘겨줬던 측에서의 배열도 수정되는데 배열이 아닌 경우와는 다르다. 주의가 필요한 듯
