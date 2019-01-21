@@ -3,11 +3,15 @@
 
 using namespace std;
 void input_name_by_pointer(string *p_first, string *p_last){
+    cout << "input name by pointer." << endl << "성" << endl;
     cin >> *p_first;
+    cout << "이름" << endl;
     cin >> *p_last;
 }
 void input_name_by_ref(string& f_name, string& l_name){
+    cout << "input name by reference." << endl << "성" << endl;
     cin >> f_name;
+    cout << "이름" << endl;
     cin >> l_name;
 }
 
